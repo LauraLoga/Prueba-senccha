@@ -33,19 +33,19 @@ Ext.define('MyApp.view.main.Main', {
             items: [{
                 xtype: 'mainlist'
             }]
-        },{
+        }, {
             title: 'Users',
             iconCls: 'x-fa fa-user',
-            bind: {
-                html: '{loremIpsum}'
-            }
-        },{
+            items: [{
+                xtype: 'mainlist'
+            }]
+        }, {
             title: 'Groups',
             iconCls: 'x-fa fa-users',
             bind: {
                 html: '{loremIpsum}'
             }
-        },{
+        }, {
             title: 'Settings',
             iconCls: 'x-fa fa-cog',
             bind: {
